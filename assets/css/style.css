@@ -1,0 +1,24 @@
+@import url(/assets/css/base.css);
+
+/* cabecalho */
+
+.cabecalho__principal {
+  align-items: center;
+  background-color: var(--azul-escuro-verao);
+  display: flex;
+  font-family: var(--textos-gerais);
+  font-style: none;
+  justify-content: space-between;
+  padding: 28px 120px
+}
+
+.menu__lista {
+  display:  flex;
+  gap: 32px;
+}
+
+.menu__itens {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
