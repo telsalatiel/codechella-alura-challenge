@@ -1,6 +1,6 @@
 @import url(/assets/css/base.css);
 
-/* cabecalho */
+/* cabecalho + banner */
 
 .cabecalho__principal {
   align-items: center;
@@ -9,7 +9,7 @@
   font-family: var(--textos-gerais);
   font-style: none;
   justify-content: space-between;
-  padding: 28px 120px
+  padding: 28px 120px;
 }
 
 .menu__lista {
@@ -21,4 +21,76 @@
   color: white;
   font-weight: 700;
   text-decoration: none;
+}
+
+.cabecalho__banner {
+  background: url(/img/verao_imagens/1\ -\ Banner\ -Homepage.png);
+  background-position: center;
+  background-size: 128vw;
+  padding: 12em 14em;
+}
+
+.banner__titulo {
+  color: var(--cinza-fonte);
+  font-family: var(--titulos);
+  font-size: 64px;
+  text-align: center;
+}
+
+/* chamada do cabecalho */
+
+.cabecalho__chamada {
+  align-items: center;
+  display: flex;
+  padding: 65px 121.5px;
+}
+
+.chamada__img {
+  background-image: url(/img/verao_imagens/call-illustration.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 16px;
+  height: 350px;
+  width: 2000px;
+}
+
+.chamada__texto {
+  color: var(--cinza-fonte);
+  font-family: var(--textos-gerais);
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.texto__titulo {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.botao__compra {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botao__compra a {
+  background-color: var(--azul-escuro-verao);
+  border-radius: 16px;
+  box-shadow: 3px 4px 0 2px rgba(0, 0, 0, 0.8);
+  color: white;
+  font-weight: 700;
+  margin-top: 16px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.botao__compra a:hover {
+  background-color: var(--azul-hoover-verao);
+}
+
+.botao__compra img {
+  padding-left: 16px;
 }
