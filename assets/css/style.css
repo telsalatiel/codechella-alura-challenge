@@ -99,6 +99,67 @@ body{
   padding-left: 16px;
 }
 
+/* Atrações */
+.atracoes__titulo {
+  color: var(--cinza-fonte);
+  font-family: var(--titulos);
+  font-size: 64px;
+  margin: 96px 0 56px 0;
+  text-align: center;
+}
+
+/* Atrações Detalhes */
+.atracoes__subtitulo {
+  background-color: var(mostarda-verao);
+  color: white;
+  font-family: var(--titulos);
+  font-size: 48px;
+  margin: auto;
+  padding: 16px;
+  text-align: center;
+  width: fit-content;
+}
+
+.atracoes__itens {
+  color: var(--cinza-fonte);
+  font-family: var(--textos-gerais);
+  padding: 48px 141.5px;
+  text-align: center;
+}
+
+.item__destaque {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  margin-bottom: 32px;
+}
+
+.lista__segundalinha {
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 47px;
+  margin-bottom: 32px;
+}
+
+.lista__terceiralinha {
+  display: flex;
+  font-size: 32px;
+  font-weight: 700;
+  justify-content: space-around;
+  line-height: 38px;
+  margin-bottom: 32px;
+}
+
+.lista__quartalinha {
+  display: flex;
+  font-size: 32px;
+  font-weight: 500;
+  justify-content: space-evenly;
+  line-height: 38px;
+}
+
 /* rodapé */
 .rodape__banner {
   background-image: url(/img/verao_imagens/rodape__baner.jfif);
