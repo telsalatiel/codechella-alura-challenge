@@ -1,5 +1,9 @@
 @import url(/assets/css/base.css);
 
+body{
+  background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+}
+
 /* cabecalho + banner */
 
 .cabecalho__principal {
@@ -93,4 +97,43 @@
 
 .botao__compra img {
   padding-left: 16px;
+}
+
+/* rodapé */
+.rodape__banner {
+  background-image: url(/img/verao_imagens/rodape__baner.jfif);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100%;
+  height: 338px;
+  mix-blend-mode:  multiply;
+}
+
+.rodape__logo {
+  margin-bottom: 8px;
+  width: 250px;
+}
+
+.rodape__container {
+  align-items: center;
+  background-color: var(--mostarda-pastel-verao);
+  color: var(--cinza-fonte);
+  display: flex;
+  font-family: var(--textos-gerais);
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: space-between;
+  line-height: 40px;
+  padding: 76px 120px;
+}
+
+.rodape__detalhes {
+  flex-flow: column wrap;
+}
+
+.rodape__detalhes a{
+    text-decoration: none;
+    color: var(--cinza-fonte);
+    margin: 0 6px;
+    font-size: 26px;
 }
