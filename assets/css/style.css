@@ -170,6 +170,11 @@ body{
   mix-blend-mode:  multiply;
 }
 
+.rodape {
+  text-align: center;
+  padding: 1.5rem;
+}
+
 .rodape__logo {
   margin-bottom: 8px;
   width: 250px;
@@ -197,4 +202,28 @@ body{
     color: var(--cinza-fonte);
     margin: 0 6px;
     font-size: 26px;
+}
+
+.rodape__conteudo {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  justify-items: center;
+}
+
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  gap: 0.5rem;
+}
+
+.rodape__texto {
+  line-height: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.rodape__texto br {
+  display: none;
 }
