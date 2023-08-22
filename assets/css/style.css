@@ -110,7 +110,7 @@ body{
 
 /* Atrações Detalhes */
 .atracoes__subtitulo {
-  background-color: var(mostarda-verao);
+  background-color: var(--mostarda-verao);
   color: white;
   font-family: var(--titulos);
   font-size: 48px;
@@ -226,4 +226,22 @@ body{
 
 .rodape__texto br {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .rodape__conteudo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      gap: 0.5rem;
+  }
+
+  .rodape__lista {
+      padding: 0;
+  }
+
+  .rodape__conteudo .rodape__texto {
+      padding: 0 0 0.5rem 0;
+  }
 }
