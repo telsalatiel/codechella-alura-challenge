@@ -27,6 +27,12 @@ body{
   text-decoration: none;
 }
 
+.menu__itens a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .cabecalho__banner {
   background: url(/img/verao_imagens/1\ -\ Banner\ -Homepage.png);
   background-position: center;
