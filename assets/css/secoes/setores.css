@@ -1,5 +1,5 @@
 @import url(/assets/css/base.css);
-@import url(/assets/css/style.css);
+@import url(/assets/css/desktop.css);
 
 .setores__banner {
   background-image: url(/img/verao_imagens/3\ -\ Banner\ -\ Mapa\ de\ setores.png);
@@ -43,19 +43,19 @@
   width: 32px;
 }
 
-.color-azulC{
+.cor-azulC{
   background-color: #0E7DF1;
 }
-.color-magenta{
+.cor-magenta{
   background-color: #FE016E;
 }
-.color-verde{
+.cor-verde{
   background-color: #01A89E;
 }
-.color-roxo{
+.cor-roxo{
   background-color: #3F51B5;
 }
-.color-azulR{
+.cor-azulR{
   background-color: #0E7DF1;
 }
 
@@ -76,5 +76,51 @@
 }
 
 .detalhes__titulo {
-  
+  color: var(--cinza-fonte);
+  font-family: var(--textos-gerais);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+}
+
+.item__titulo {
+  color: var(--cinza-fonte);
+  font-family: var(--textos-gerais);
+  font-weight: 700;
+  font-size: 32px;
+  margin: 24px 0;
+  text-align: center;
+}
+
+.item__texto {
+  color: var(--cinza-fonte);
+  font-family: var(--textos-gerais);
+  font-size: 16px;
+  line-height: 40px;
+  margin-bottom: 48px;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.ilustracao-detalhe {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 239px;
+  margin: auto;
+  width: 382.4px;
+}
+
+.imagem__1 {
+  background-image: url(/img/verao_imagens/3\ -\ Mapa\ de\ setores2.png);
+}
+
+.imagem__2 {
+  background-image: url(/img/verao_imagens/3\ -\ Mapa\ de\ setores3.png);
+}
+
+.imagem__3 {
+  background-image: url(/img/verao_imagens/3\ -\ Mapa\ de\ setores4.png);
+  border-radius: 16px;
+  margin: 0 5.1px;
 }
