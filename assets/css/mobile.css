@@ -1,0 +1,86 @@
+@import url(/assets/css/tablet.css);
+
+/* para o celular */
+@media (max-width : 738px) {
+
+  /* home */
+  .cabecalho__principal {
+    padding: 32px 24px;
+  }
+
+  .menu__lista {
+    flex-direction: column;
+    margin-top: 0;
+    gap: 22px;
+    text-align: center;
+  }
+
+  .cabecalho__banner {
+    background: url(/img/verao_imagens/mobile/1\ -\ Banner\ -\ Homepage.png);
+    padding: 92px 25px;
+  }
+
+  .cabecalho__titulo {
+    font-size: 32px;
+  }
+
+  .cabecalho__chamada {
+    padding: 32px 24px;
+  }
+
+  .chamada__img {
+    background-image: url(/img/verao_imagens/mobile/1\ -\ Homepage1.png);
+    height: 361px;
+    width: 292px;
+  }
+
+  .chamada__texto {
+    padding: 0;
+  }
+
+  .atracoes__titulo {
+    margin: 16px 0 98px 0;
+  }
+
+  .atracoes__subtitulo {
+    font-size: 32px;
+    margin-top: 64px;
+  }
+
+  .atracoes__itens {
+    padding: 48px 24px;
+  }
+
+  /* .atracoes__itens ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .quartalinha__sabado {
+    padding: 0 62px;
+  }
+
+  .lista__terceiralinha, .lista__quartalinha {
+    column-gap: 32px;
+  } */
+
+  .rodape__banner {
+    background-image: url(/img/verao_imagens/mobile/1\ -\ Homepage2.png);
+  }
+
+  .rodape__container {
+    font-size: 20px;
+    padding: 24px;
+  }
+
+  .rodape__redes-sociais {
+    margin-top:0 48px;
+  }
+
+  /* secao experiencia */
+
+
+  /* mapa de setores */
+
+}
